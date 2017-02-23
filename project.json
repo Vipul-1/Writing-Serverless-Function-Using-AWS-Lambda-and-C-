@@ -1,0 +1,18 @@
+{
+  "title": "Title",
+  "description": "Description",
+  "version": "1.0.0-*",
+  "buildOptions": {},
+  "dependencies": {"Microsoft.NETCore.App": {"type": "platform","version": "1.0.0"},
+    "Microsoft.Extensions.Configuration.Json": "1.1.0",
+    "Amazon.Lambda.Core": "1.0.0*",
+    "Amazon.Lambda.Serialization.Json": "1.0.1",
+    "Amazon.Lambda.Tools": {"type": "build","version": "1.2.1-preview1"},
+    "AWSSDK.DynamoDBv2": "3.3.2.1",
+    "AWSSDK.Lambda": "3.3.2.6"
+  },
+  "tools": {"Amazon.Lambda.Tools": "1.2.1-preview1"},
+  "frameworks": {"netcoreapp1.0": {"imports": "dnxcore50"}
+  }
+
+}
